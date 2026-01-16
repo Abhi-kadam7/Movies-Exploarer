@@ -1,0 +1,35 @@
+.card{
+    height: 400px;
+    width: 250px;
+    background-color: rgb(203, 202, 201);
+}
+.img{
+    height: 70%;
+    width: 100%;
+    border: solid 2px;
+}
+.detail{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 0.4rem;
+    align-items: center;
+}
+.img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.detail p{
+    font-size: 12px;
+    font-weight: bold;
+}
+.detail button{
+    padding: 0.1rem;
+    border-radius: 6px;
+}
+.detail button:hover{
+    background-color: brown;
+}

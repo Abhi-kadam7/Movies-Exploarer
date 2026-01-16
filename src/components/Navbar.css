@@ -1,0 +1,30 @@
+.nav{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.nav h2{
+    width:fit-content;
+    cursor: pointer;
+    
+}
+.nav h2:hover{
+    color: brown;
+}
+.nav h3{
+    padding-left:15%;
+    padding-top: 7px;
+    cursor: pointer;
+}
+.nav h3:hover{
+    color: brown;
+}
+.nav a {
+  text-decoration: none;
+  color: inherit;
+}
