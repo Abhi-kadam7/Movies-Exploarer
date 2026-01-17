@@ -1,8 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Card.css'
 const Card = ({Moveis}) => {
-    console.log(Moveis);
-    
+ 
   return (
     <div className='card'>
 <div className='img'>
@@ -11,8 +11,7 @@ const Card = ({Moveis}) => {
 <div className='detail'>
 <h5>Movei Name:{Moveis.Title}</h5>
 <p>Release Year:{Moveis.Year}</p>
-<p>Type:{Moveis.Type}</p>
-<button>Details</button>
+<button><Link to={`/moveis/${Moveis.imdbID}`}>Details</Link></button>
 </div>
     </div>
   )

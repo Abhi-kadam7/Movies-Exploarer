@@ -3,6 +3,7 @@
   width: 100%;
   background-color: rgb(46, 46, 46);
   padding: 1rem;
+  color: white;
 }
 
 .search{
@@ -17,12 +18,14 @@
      cursor: pointer;
      border: solid 2px;
      caret-color: rgb(253, 93, 0);
+     padding:4px ;
 }
 .btn{
     border-radius:6px ;
      border: none;
      cursor: pointer;
      padding: 4px;
+    caret-color: transparent;
 }
 .btn:hover{
     background-color: brown;

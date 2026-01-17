@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     padding-left: 10px;
+    caret-color: transparent;
 }
 
 .nav h2{
