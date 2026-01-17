@@ -8,7 +8,7 @@ const Moveis = () => {
     const Catch = useRef(null)
     const navigate=useNavigate()
     const data=async(query)=>{
-        let raw= await fetch(`http://www.omdbapi.com/?s=${query}&apikey=244f9c25`);
+        let raw= await fetch(`https://www.omdbapi.com/?s=${query}&apikey=244f9c25`);
         let data2= await raw.json();
         console.log(data2);
         

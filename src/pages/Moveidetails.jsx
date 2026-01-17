@@ -8,7 +8,7 @@ const [Movei, setMovei] = useState({})
 const {id}=useParams()
 useEffect(() => {
   let set=async()=>{
-    let temp=await fetch(` http://www.omdbapi.com/?i=${id}&apikey=244f9c25`)
+    let temp=await fetch(` https://www.omdbapi.com/?i=${id}&apikey=244f9c25`)
     let data= await temp.json();
     console.log(data);
     setMovei(data)
